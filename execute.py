@@ -34,8 +34,5 @@ def search():
 def display_image(filename):
     return redirect(url_for('static', filename='/'+filename), code=301)
 
-
-
-
 if __name__ == '__main__':
     app.run(debug=True, port=7000)
