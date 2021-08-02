@@ -9,6 +9,7 @@ def home_page():
     
     return render_template('base.html')
 
+
 @app.route('/search',methods=['GET', 'POST'])
 def search():
     if request.method == 'POST':
